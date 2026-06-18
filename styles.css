@@ -183,6 +183,11 @@ a {
   height: 34px;
   letter-spacing: 0;
   padding-left: 76px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
 }
 
@@ -199,7 +204,7 @@ a {
   position: absolute;
   top: 10px;
   width: 58px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .section::before,
@@ -256,7 +261,7 @@ h1 {
   font-size: clamp(3rem, 7.2vw, 6.35rem);
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 0.9;
+  line-height: 1;
   margin-bottom: 18px;
   max-width: 960px;
 }
@@ -628,7 +633,8 @@ p {
 
 .page-hero.compact h1,
 .page-hero.split h1 {
-  font-size: clamp(2.8rem, 6.5vw, 6rem);
+  font-size: clamp(2.7rem, 6vw, 5.5rem);
+  line-height: 1.02;
 }
 
 .about-panel,
