@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Start a Project | Stephanie Gonzalez Studio</title>
+    <meta
+      name="description"
+      content="Send project details for social graphics, Canva templates, brand kits, launch campaigns, and content design support."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Stephanie Gonzalez Studio</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a class="nav-cta" href="contact.html">Start a Project</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Start a project</p>
+        <h1>Tell me what you need designed.</h1>
+        <p>
+          Use this form for social graphics, Canva templates, brand kits,
+          campaign assets, launch graphics, or custom content design support.
+          Email-first projects are available.
+        </p>
+      </section>
+
+      <section class="contact-layout">
+        <form class="contact-form" name="project-inquiry" method="POST" data-netlify="true" action="/thanks.html">
+          <input type="hidden" name="form-name" value="project-inquiry" />
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Business or brand name
+            <input name="business" type="text" />
+          </label>
+          <label>
+            Website or social link
+            <input name="link" type="url" placeholder="https://" />
+          </label>
+          <label>
+            Which package are you interested in?
+            <select name="package">
+              <option>Content Pack</option>
+              <option>Brand Starter Kit</option>
+              <option>Monthly Content Kit</option>
+              <option>Launch Kit</option>
+              <option>Custom project</option>
+            </select>
+          </label>
+          <label>
+            Timeline
+            <input name="timeline" type="text" placeholder="Example: 2 weeks, this month, flexible" />
+          </label>
+          <label>
+            Budget range
+            <select name="budget">
+              <option>$250 to $500</option>
+              <option>$500 to $1,000</option>
+              <option>$1,000 to $2,000</option>
+              <option>$2,000+</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label class="full">
+            What do you need designed?
+            <textarea name="details" rows="6" required></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Send Project Details</button>
+        </form>
+        <aside class="contact-note">
+          <p class="eyebrow">How it works</p>
+          <h2>Simple, written, organized.</h2>
+          <p>
+            Send the details in writing and I will follow up with a clear scope,
+            timeline, and quote. No call-first process required.
+          </p>
+          <ul>
+            <li>Send project details</li>
+            <li>Receive scope and quote</li>
+            <li>Approve the direction</li>
+            <li>Get polished, ready-to-use assets</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Content design, Canva templates, brand kits, and campaign assets.</p>
+      <nav aria-label="Footer navigation">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>
