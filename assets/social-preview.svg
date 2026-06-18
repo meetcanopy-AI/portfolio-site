@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Stephanie Gonzalez Studio social preview">
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#cde9e4"/>
+    </pattern>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#1b9cd8"/>
+      <stop offset="0.58" stop-color="#ff4fa3"/>
+      <stop offset="1" stop-color="#ffd23d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#e3f4f1"/>
+  <rect width="1200" height="630" fill="url(#dots)" opacity="0.9"/>
+  <rect x="78" y="70" width="1044" height="490" rx="26" fill="#fffdfa" stroke="#1e2a33" stroke-width="8"/>
+  <rect x="78" y="70" width="1044" height="70" rx="26" fill="url(#bar)" stroke="#1e2a33" stroke-width="8"/>
+  <rect x="78" y="106" width="1044" height="38" fill="url(#bar)"/>
+  <circle cx="122" cy="107" r="12" fill="#ff6b6b" stroke="#1e2a33" stroke-width="4"/>
+  <circle cx="160" cy="107" r="12" fill="#ffd23d" stroke="#1e2a33" stroke-width="4"/>
+  <circle cx="198" cy="107" r="12" fill="#37d67a" stroke="#1e2a33" stroke-width="4"/>
+  <text x="245" y="116" fill="#ffffff" font-family="Courier New, monospace" font-size="24" font-weight="700">stephanie_gonzalez.exe</text>
+  <text x="128" y="215" fill="#e0247f" font-family="Courier New, monospace" font-size="24" font-weight="700" letter-spacing="2">CONTENT DESIGN STUDIO</text>
+  <text x="128" y="292" fill="#1e2a33" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">Polished content assets</text>
+  <text x="128" y="362" fill="#1e2a33" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">for brands that need</text>
+  <text x="128" y="432" fill="#1e2a33" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">to look ready online.</text>
+  <rect x="128" y="490" width="292" height="44" rx="10" fill="#ff4fa3" stroke="#1e2a33" stroke-width="4"/>
+  <text x="154" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">meetcanopy.club</text>
+  <g transform="translate(885 238)">
+    <rect x="0" y="0" width="160" height="196" rx="18" fill="#ffd23d" stroke="#1e2a33" stroke-width="6"/>
+    <rect x="24" y="28" width="112" height="24" rx="8" fill="#1b9cd8"/>
+    <rect x="24" y="72" width="92" height="20" rx="8" fill="#ff4fa3"/>
+    <rect x="24" y="112" width="112" height="52" rx="12" fill="#13c9b4" stroke="#1e2a33" stroke-width="5"/>
+    <text x="28" y="182" fill="#1e2a33" font-family="Courier New, monospace" font-size="14" font-weight="700">READY TO POST</text>
+  </g>
+</svg>

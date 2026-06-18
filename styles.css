@@ -810,6 +810,10 @@ label {
   grid-column: 1 / -1;
 }
 
+.hidden-field {
+  display: none;
+}
+
 input,
 select,
 textarea {

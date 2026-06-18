@@ -8,6 +8,20 @@
       name="description"
       content="Send project details for social graphics, Canva templates, mini brand kits, launch campaigns, and content design support."
     />
+    <link rel="canonical" href="https://meetcanopy.club/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://meetcanopy.club/contact.html" />
+    <meta property="og:title" content="Start a Project | Stephanie Gonzalez Studio" />
+    <meta property="og:description" content="Send project details for social graphics, Canva templates, brand kits, and launch assets." />
+    <meta property="og:image" content="https://meetcanopy.club/assets/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Start a Project | Stephanie Gonzalez Studio" />
+    <meta name="twitter:description" content="Send project details for social graphics, Canva templates, brand kits, and launch assets." />
+    <meta name="twitter:image" content="https://meetcanopy.club/assets/social-preview.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="assets/favicon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -37,8 +51,11 @@
       </section>
 
       <section class="contact-layout">
-        <form class="contact-form" name="project-inquiry" method="POST" data-netlify="true" action="/thanks.html">
+        <form class="contact-form" name="project-inquiry" method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks.html">
           <input type="hidden" name="form-name" value="project-inquiry" />
+          <p class="hidden-field">
+            <label>Do not fill this out <input name="bot-field" /></label>
+          </p>
           <label>
             Name
             <input name="name" type="text" autocomplete="name" required />
